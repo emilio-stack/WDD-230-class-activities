@@ -1,0 +1,2 @@
+git remote rm <remote name (origin)>
+git remote -v 
