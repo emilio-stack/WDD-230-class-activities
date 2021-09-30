@@ -80,4 +80,3 @@ function popUpthree() {
     document.getElementById("emptythree").innerHTML = person; 
 }
 
-//Hi Moon 
