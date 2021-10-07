@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.ticket {
+  width: 480px;
+  margin: auto;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.header p {
+  font-size: 80%;
+  color: #999fa2;
+}
+
+.mobile {
+  display: inline-block;
+  border-radius: 30px;
+}
+
+img .mobile {
+  border-radius: 30px 0px 0px 0px;
+}
+
+.mobile p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 12px;
+  font-size: 60%;
+}
+
+.destination {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-items: center;
+  justify-content: center;
+  background-color: #001b36;
+  color: white;
+  padding: 20px;
+}
+
+.plane-logo {
+  justify-self: center;
+}
+
+.secondary-text {
+  color: #6f7091;
+}
+
+.place {
+  text-align: center;
+}
+
+.third-section-top {
+  background-color: #cfcfcf;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.third-section-bottom {
+  background-color: #cfcfcf;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sub-sections {
+  color: #001b36;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+}
+h3 .sub-sections {
+  margin-bottom: 4px;
+}
+.sub-sections {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.third-section-top {
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.third-section-bottom {
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.last-section {
+  text-align: center;
+}
+.barcode {
+  margin-top: 28px;
+  justify-self: center;
+}
+
+.thankyou {
+  margin-top: 0;
+  padding: 20px;
+}
+
+@media screen and (max-width: 580px) {
+  .ticket {
+    width: 90%;
+  }
+}
