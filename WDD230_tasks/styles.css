@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+  background-color: #e9eef2;
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  color: #c4cace;
+}
+
+h2 {
+  color: #12a9eb;
+  font-weight: bold;
+}
+
+.prices {
+  color: #12a9eb;
+  display: inline;
+}
+
+.allboxes {
+  max-width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.bothboxes {
+  background-color: white;
+  width: 75%;
+  height: 450px;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.055),
+    0 6px 20px 0 rgba(0, 0, 0, 0.055);
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#box1 {
+  grid-column: 1/2;
+}
+
+#box3 {
+  grid-column: 3/4;
+}
+
+#box2-header {
+  background-color: #12a9eb;
+  padding: 5px;
+}
+
+#box2-header p {
+  color: white;
+}
+
+#box2 {
+  background-color: white;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.055),
+    0 6px 20px 0 rgba(0, 0, 0, 0.055);
+  text-align: center;
+  align-content: center;
+  grid-column: 2/3;
+}
+
+.bold {
+  display: inline;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #12a9eb;
+}
+
+.button-1 {
+  background-color: #c4cace;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 2px solid #b7bcc0;
+  border-right: 2px solid #b7bcc0;
+  border-top: none;
+  border-left: none;
+}
+
+#button-2 {
+  background-color: #fecf2d;
+  border: 1px solid gray;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #e9eef2;
+  }
+
+  .allboxes {
+    max-width: 100%;
+    display: block;
+  }
+
+  .bothboxes {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.055),
+      0 6px 20px 0 rgba(0, 0, 0, 0.055);
+  }
+
+  #box2 {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.055),
+      0 6px 20px 0 rgba(0, 0, 0, 0.055);
+  }
+}
