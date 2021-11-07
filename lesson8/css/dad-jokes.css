@@ -1,0 +1,8 @@
+.img{
+    position: relative;
+}
+
+.dad-joke {
+    position: absolute;
+    top: 50px;
+}
