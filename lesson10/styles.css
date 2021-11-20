@@ -1,0 +1,26 @@
+#background {
+  background-image: url('images/5.jpg');
+  background-size: cover;
+  width: 20%;
+  height: 500px;
+  position: absolute;
+  padding: 20px;
+}
+
+div {
+  color: white;
+}
+
+table {
+  position: relative;
+  bottom: -300px;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+
+#content {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
